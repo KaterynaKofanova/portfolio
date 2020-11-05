@@ -10,10 +10,10 @@ const Contacts= () => {
             </Row>
             <Row className="align-items-center justify-content-center text-center my-5">
                 <Col className="align-items-center justify-content-center text-center my-5">
-                <a href="https://www.linkedin.com/in/katerynakofanova/" target="_blank"><AiFillLinkedin size={80} color="black"/></a>
+                <a href="https://www.linkedin.com/in/katerynakofanova/" target="_blank" ><AiFillLinkedin size={80} color="black" id='icon-hov'/></a>
                 </Col>
                 <Col className="align-items-center justify-content-center text-center my-5">
-                <a href="https://github.com/KaterynaKofanova" target="_blank"><AiFillGithub size={80} color="black"/></a>
+                <a href="https://github.com/KaterynaKofanova" target="_blank" ><AiFillGithub size={80} color="black" id='icon-hov'/></a>
                 </Col>
             </Row>
         </Container>

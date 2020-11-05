@@ -13,10 +13,10 @@ const Main = () => {
              <h1>WELCOME TO MY PORTFOLIO</h1>
              </Row>
              <Row className="align-items-center justify-content-center text-center my-3">
-             <h4>Kateryna Kofanova</h4>
+             <h3>Kateryna Kofanova</h3>
              </Row>
              <Row className="align-items-center justify-content-center text-center my-3">
-             <p className="text-white-75 font-weight-light mb-5">Here you can find my projects that showcase my skills. Please take a look and enjoy!</p>
+             <p className="text-white-75 font-weight-light mb-5" style={{fontSize: 20}}>Here you can find my projects that showcase my skills. Please take a look and enjoy!</p>
              </Row>
              <Nav.Link href="#about"><Button label='Find out more'></Button></Nav.Link> 
         </Container>

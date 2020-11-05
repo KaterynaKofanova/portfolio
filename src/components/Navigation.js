@@ -5,7 +5,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineHome} from 'react-icons/ai'
 const Navigation = () => {
     return (
         <Navbar bg="light" expand="lg" fixed='top'>
-            <Navbar.Brand href="#main"><AiOutlineHome size={30} /></Navbar.Brand>
+            <Navbar.Brand href="#main"><AiOutlineHome size={30}  id='home-hov'/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

@@ -10,6 +10,9 @@
     color: white!important;
 }
 
+.nav-link:hover{
+    color: black!important;
+}
 
 .navbar-brand{
     font-size: 1.5em !important;
@@ -43,6 +46,7 @@
     flex-direction: column;
 }
 
+
 .card-Image{
     height: '50%'
 }
@@ -59,3 +63,16 @@
 .cta:before{
     background: rgba(255, 255, 255, 0.7)!important;
 }
+
+.card-link{
+    color: darkcyan;
+}
+
+#icon-hov:hover{
+    color: cadetblue!important;
+}
+
+#home-hov:hover{
+    color: black!important;
+}
+

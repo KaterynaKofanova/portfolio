@@ -11,8 +11,8 @@ const Projects = () => {
              <h1>Projects</h1>
              </Row>
              <div className="card-deck align-items-center justify-content-center text-center my-4">
-               
-               <Card style={{ width: '18rem' }}>
+             <Col >
+               <Card style={{ width: '18rem' }} >
                  <Card.Img  fluid variant="top" src={tictactoe} />
                  <Card.Body>
                    <Card.Title>TicTacToe Game</Card.Title>
@@ -20,8 +20,9 @@ const Projects = () => {
                    <Card.Link href="https://github.com/KaterynaKofanova/tic-tac-toe" target="_blank">See on GitHub</Card.Link>
                 </Card.Body>
                </Card>
-               
-               <Card  style={{ width: '18rem' }}>
+               </Col>
+               <Col >
+               <Card  style={{ width: '18rem' }} > 
                  <Card.Img fluid variant="top" src={calculator}/>
                  <Card.Body>
                    <Card.Title>Calculator</Card.Title>
@@ -29,6 +30,7 @@ const Projects = () => {
                    <Card.Link href="https://github.com/KaterynaKofanova/calculator" target="_blank">See on GitHub</Card.Link>
                 </Card.Body>
                </Card>
+               </Col>
              </div>
              <Nav.Link href="#contacts"><Button label='Contact me'></Button></Nav.Link> 
         </Container>
