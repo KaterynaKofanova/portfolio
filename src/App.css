@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar {
+    min-height: 80px;
+    background-color: rgba(0, 0, 0, 0.4)!important;
+    
   }
+
+.nav-link{
+    font-size: 1.5em !important;
+    padding: 1vw!important;
+    color: white!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.navbar-brand{
+    font-size: 1.5em !important;
+    color: white!important;
 }
 
-.App-link {
-  color: #61dafb;
+#main{
+    background-image: linear-gradient(to bottom, #8d586e, #aa6675, #c67679, #df897a, #f39e7a);
+    flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#about{
+    background: rgb(191,217,241);
+    background: linear-gradient(140deg, rgba(191,217,241,1) 0%, rgba(255,233,123,1) 43%, rgba(243,158,122,1) 100%);
+    flex-direction: column;
+}
+
+.btn-primary {
+    min-width: 15vw!important;
+    max-width: 90vw!important;
+}
+
+#skills{
+    background: rgb(191,217,241);
+    flex-direction: column;
+}
+
+#projects{
+    background: rgb(243,158,122);
+
+    flex-direction: column;
+}
+
+.card-Image{
+    height: '50%'
+}
+
+.card-body{
+    background: #fbe0d4;
+}
+
+#contacts{
+    background-image: linear-gradient(to bottom, #ffe97b, #b8f4a6, #8bf2d9, #98e7f6, #bfd9f1);
+    flex-direction: column;
+}
+
+.cta:before{
+    background: rgba(255, 255, 255, 0.7)!important;
 }
