@@ -42,7 +42,8 @@
 
 #projects{
     background: rgb(243,158,122);
-
+    height: auto;
+    min-height: 100vh;
     flex-direction: column;
 }
 
