@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col,  Nav} from 'react-bootstrap'
-import { SiReact, SiNodeDotJs, SiMongodb, SiGit, SiPython, SiCss3, SiHtml5, SiR, SiJavascript} from 'react-icons/si'
+import { SiReact, SiNodeDotJs, SiMongodb, SiGit, SiPython, SiCss3, SiHtml5, SiR, SiJavascript, SiRedux} from 'react-icons/si'
 import {GrMysql} from 'react-icons/gr'
 import Button from '@bit/tabinda.react-button-animation.animated.button';
 
@@ -16,6 +16,9 @@ const Skills= () => {
               </Col>
               <Col>
               <SiNodeDotJs size={50}/> <p>Nodejs</p>
+              </Col>
+              <Col>
+              <SiRedux size={50}/> <p>Redux</p>
               </Col>
               <Col>
               <SiMongodb size={50}/> <p>MongoDB</p>
