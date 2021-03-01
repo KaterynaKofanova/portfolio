@@ -18,7 +18,7 @@ const Skills= () => {
               <SiNodeDotJs size={50}/> <p>Nodejs</p>
               </Col>
               <Col>
-              <SiGraphql size={50}/> <p>GarphQL</p>
+              <SiGraphql size={50}/> <p>GraphQL</p>
               </Col>
               <Col>
               <SiTypescript size={50}/> <p>TypeScript</p>
