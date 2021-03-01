@@ -38,6 +38,8 @@
 #skills{
     background: rgb(191,217,241);
     flex-direction: column;
+    min-height: 100vh;
+    height: auto;
 }
 
 #projects{

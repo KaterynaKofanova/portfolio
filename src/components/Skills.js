@@ -1,12 +1,12 @@
 import React from 'react'
 import {Container, Row, Col,  Nav} from 'react-bootstrap'
-import { SiReact, SiNodeDotJs, SiMongodb, SiGit, SiPython, SiCss3, SiHtml5, SiR, SiJavascript, SiRedux} from 'react-icons/si'
+import { SiReact, SiNodeDotJs, SiMongodb, SiGit, SiPython, SiCss3, SiHtml5, SiR, SiJavascript, SiRedux, SiTypescript, SiGraphql} from 'react-icons/si'
 import {GrMysql} from 'react-icons/gr'
 import Button from '@bit/tabinda.react-button-animation.animated.button';
 
 const Skills= () => {
     return (
-        <Container fluid className="d-flex vh-100 justify-content-center align-items-center" id="skills">
+        <Container fluid className="d-flex justify-content-center align-items-center" id="skills">
             <Row className="align-items-center justify-content-center text-center my-5">
                <h1>Skills</h1>
             </Row>
@@ -18,6 +18,12 @@ const Skills= () => {
               <SiNodeDotJs size={50}/> <p>Nodejs</p>
               </Col>
               <Col>
+              <SiGraphql size={50}/> <p>GarphQL</p>
+              </Col>
+              <Col>
+              <SiTypescript size={50}/> <p>TypeScript</p>
+              </Col>
+              <Col>
               <SiRedux size={50}/> <p>Redux</p>
               </Col>
               <Col>
@@ -26,6 +32,8 @@ const Skills= () => {
               <Col>
               <SiGit size={50}/> <p>Git</p>
               </Col>
+            </Row>
+            <Row className="align-items-center justify-content-center text-center my-4">
               <Col>
               <SiPython size={50}/> <p>Python</p>
               </Col>
