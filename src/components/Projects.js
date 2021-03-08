@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Row, Col, Card, Nav} from 'react-bootstrap'
 import tictactoe from "../images/TicTacToe.png"
 import calculator from '../images/Calculator.png'
+import pokemon from '../images/pokemon.png'
 import Button from '@bit/tabinda.react-button-animation.animated.button';
 
 const Projects = () => {
@@ -28,6 +29,16 @@ const Projects = () => {
                    <Card.Title>Calculator</Card.Title>
                    <Card.Link href="https://katerynakofanova.github.io/calculator/" target="_blank">Live Demo</Card.Link>
                    <Card.Link href="https://github.com/KaterynaKofanova/calculator" target="_blank">See on GitHub</Card.Link>
+                </Card.Body>
+               </Card>
+               </Col>
+               <Col >
+               <Card  style={{ width: '18rem' }} > 
+                 <Card.Img fluid variant="top" src={pokemon}/>
+                 <Card.Body>
+                   <Card.Title>Pokemon Battle</Card.Title>
+                   <Card.Link href="https://cryptic-everglades-59148.herokuapp.com/" target="_blank">Live Demo</Card.Link>
+                   <Card.Link href="https://github.com/KaterynaKofanova/pokemon-battle" target="_blank">See on GitHub</Card.Link>
                 </Card.Body>
                </Card>
                </Col>
