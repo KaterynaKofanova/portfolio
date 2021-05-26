@@ -8,7 +8,7 @@ import Button from '@bit/tabinda.react-button-animation.animated.button';
 
 const Projects = () => {
     return (
-        <Container fluid className="d-flex justify-content-end align-items-center " id="projects">
+        <Container fluid className="d-flex justify-content-center align-items-center " id="projects">
             <Row className="align-items-center justify-content-center text-center my-0">
              <h1>Projects</h1>
              </Row>
